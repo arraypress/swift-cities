@@ -1,0 +1,22 @@
+The files in Sources/Cities/Resources/ are derived from the GeoNames
+geographical database (https://www.geonames.org), and are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Source files, from https://download.geonames.org/export/dump/:
+
+    cities15000.zip, admin1CodesASCII.txt, countryInfo.txt,
+    timeZones.txt, alternateNamesV2.zip
+
+Changes made by Scripts/build-cities.py: historical, abandoned and destroyed
+places dropped; columns reduced to name, ASCII name, up to five alternate
+names, country, first-level region, population, time zone and a coordinate
+rounded to four decimal places; region and country names joined in from the
+admin1 and country tables; a small set of country aliases and Canadian and
+Australian region abbreviations added.
+
+Attribution: "Contains data from GeoNames (geonames.org), CC BY 4.0."
+
+GeoNames provides the data as is, without warranty of any kind.
+
+The Swift source code in this repository is MIT licensed; see LICENSE.
