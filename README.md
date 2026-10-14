@@ -105,7 +105,7 @@ A region that only repeats the city is left out, which is why it is "Tokyo, Japa
 
 Measured from the GeoNames dump of 4 October 2026:
 
-| | |
+| Contents | Count |
 |---|---|
 | Cities | 34,125 |
 | Countries | 244 |
@@ -131,7 +131,7 @@ Alternate names are capped at five per city and kept only if they are Latin-scri
 
 Measured in a release build on an Apple-silicon Mac:
 
-| | |
+| Operation | Time |
 |---|---|
 | First use — read, parse and index 34,125 cities | 120 ms |
 | A typical search (`london`, `portland maine`, `zurich`) | 0.002–0.02 ms |
